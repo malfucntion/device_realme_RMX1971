@@ -15,6 +15,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 USE_PIXEL_CHARGING := true
 
+#GApps 
+TARGET_GAPPS_ARCH := arm64
+WITH_GAPPS := true
+IS_PHONE := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
 PRODUCT_NAME := havoc_RMX1971

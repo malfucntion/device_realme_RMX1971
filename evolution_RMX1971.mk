@@ -4,8 +4,8 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common havoc stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common EvolutionX stuff.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -15,14 +15,13 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
 USE_PIXEL_CHARGING := true
 
-#GApps 
-TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
-IS_PHONE := true
+#EvolutionX Stuff
+EVO_BUILD_TYPE := UNOFFICIAL
+EVO_MAINTAINER := Mxlfunction
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := havoc_RMX1971
+PRODUCT_NAME := evolution_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme

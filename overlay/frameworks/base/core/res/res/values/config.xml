@@ -481,6 +481,9 @@
 
     <!-- Whether device has vooc charging support -->
     <bool name="config_hasVoocCharger">true</bool>
+    
+    <bool name="config_physicalDisplayCutout">true</bool>
+
 
     <!-- Show battery icon in the QS Panel instead of in the header -->
     <bool name="config_batteryInQSPanel">false</bool>

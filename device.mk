@@ -136,10 +136,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
-# GalaxyParts
-PRODUCT_PACKAGES += \
-    GalaxyParts
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -437,13 +433,7 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit vendor
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
-    
-# Via
-PRODUCT_PACKAGES += \
-    Via
-    
+
 # GalleryGo
-PRODUCT_PACKAGES += \
-    GalleryGo \
+PRODUCT_PACKAGES += \  
     GCamGo \
-    OtoMusic

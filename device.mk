@@ -437,7 +437,11 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit vendor
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
+<<<<<<< HEAD
 
 # GalleryGo
 PRODUCT_PACKAGES += \  
     GCamGo \
+=======
+        
+>>>>>>> 008df2a (Nuke Prebuilts)
